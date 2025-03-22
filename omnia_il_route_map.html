@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_79eda76304e7679470c8e375a7e86b11 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_79eda76304e7679470c8e375a7e86b11" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_79eda76304e7679470c8e375a7e86b11 = L.map(
+                "map_79eda76304e7679470c8e375a7e86b11",
+                {
+                    center: [41.8781, -87.6298],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d00d709ba804249df2e82ef11e7e66f3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+    
+            var marker_3e59cc67e30a5aa7851c44b0ca35b4f6 = L.marker(
+                [41.8936, -87.6735],
+                {}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+    
+        var popup_b9712074bfa5808f36a5c6044a75f25f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e1c685919693a61205117e022b897d8 = $(`<div id="html_6e1c685919693a61205117e022b897d8" style="width: 100.0%; height: 100.0%;">1659 W Huron St., Chicago, IL 60622</div>`)[0];
+            popup_b9712074bfa5808f36a5c6044a75f25f.setContent(html_6e1c685919693a61205117e022b897d8);
+        
+
+        marker_3e59cc67e30a5aa7851c44b0ca35b4f6.bindPopup(popup_b9712074bfa5808f36a5c6044a75f25f)
+        ;
+
+        
+    
+    
+            var marker_0108cfd5be49b46f8edf29f750c97727 = L.marker(
+                [41.7303, -88.1257],
+                {}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+    
+        var popup_0cc81138d06e31d279cca063f27d7a03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fed7ab17acb46d146e5291362009989 = $(`<div id="html_4fed7ab17acb46d146e5291362009989" style="width: 100.0%; height: 100.0%;">195 N. Weber Road, IL</div>`)[0];
+            popup_0cc81138d06e31d279cca063f27d7a03.setContent(html_4fed7ab17acb46d146e5291362009989);
+        
+
+        marker_0108cfd5be49b46f8edf29f750c97727.bindPopup(popup_0cc81138d06e31d279cca063f27d7a03)
+        ;
+
+        
+    
+    
+            var marker_b827f8b849e01cfec2ac384d074538bb = L.marker(
+                [41.8034, -88.2044],
+                {}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+    
+        var popup_437e8f9a851ba413b5febb4ed3c3e5c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2beb7a86a531bcb6b1c09983b6ac9363 = $(`<div id="html_2beb7a86a531bcb6b1c09983b6ac9363" style="width: 100.0%; height: 100.0%;">818 N. Route 59, IL</div>`)[0];
+            popup_437e8f9a851ba413b5febb4ed3c3e5c1.setContent(html_2beb7a86a531bcb6b1c09983b6ac9363);
+        
+
+        marker_b827f8b849e01cfec2ac384d074538bb.bindPopup(popup_437e8f9a851ba413b5febb4ed3c3e5c1)
+        ;
+
+        
+    
+    
+            var marker_105027c9563c9139c89550f0edfe1656 = L.marker(
+                [41.7584, -88.3368],
+                {}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+    
+        var popup_4e972391762b33daced151208e2cd90e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e118da065fa35386b3d0b3e9bada3c3 = $(`<div id="html_0e118da065fa35386b3d0b3e9bada3c3" style="width: 100.0%; height: 100.0%;">865 S. Randall Rd, IL</div>`)[0];
+            popup_4e972391762b33daced151208e2cd90e.setContent(html_0e118da065fa35386b3d0b3e9bada3c3);
+        
+
+        marker_105027c9563c9139c89550f0edfe1656.bindPopup(popup_4e972391762b33daced151208e2cd90e)
+        ;
+
+        
+    
+    
+            var marker_2fa64adf1c4b94496bf006d7e697f326 = L.marker(
+                [41.7722, -88.3315],
+                {}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+    
+        var popup_56127b6f7dedc3def0aa4a85ff66bb3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d412455006ac54d3168657edc97cfb16 = $(`<div id="html_d412455006ac54d3168657edc97cfb16" style="width: 100.0%; height: 100.0%;">801 S. Randall Rd, IL</div>`)[0];
+            popup_56127b6f7dedc3def0aa4a85ff66bb3b.setContent(html_d412455006ac54d3168657edc97cfb16);
+        
+
+        marker_2fa64adf1c4b94496bf006d7e697f326.bindPopup(popup_56127b6f7dedc3def0aa4a85ff66bb3b)
+        ;
+
+        
+    
+    
+            var marker_40e507d4f63e541815a7834335dad6bb = L.marker(
+                [41.9496, -88.108],
+                {}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+    
+        var popup_6fe0111ef7836da3a4bddf58bc5e272b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d01cef7334a3c2e40f41722f76bb53ed = $(`<div id="html_d01cef7334a3c2e40f41722f76bb53ed" style="width: 100.0%; height: 100.0%;">128 S. Gary Ave, IL</div>`)[0];
+            popup_6fe0111ef7836da3a4bddf58bc5e272b.setContent(html_d01cef7334a3c2e40f41722f76bb53ed);
+        
+
+        marker_40e507d4f63e541815a7834335dad6bb.bindPopup(popup_6fe0111ef7836da3a4bddf58bc5e272b)
+        ;
+
+        
+    
+    
+            var marker_584ff4ad1ef4fd87741c82a265dc3f27 = L.marker(
+                [41.7595, -88.341],
+                {}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+    
+        var popup_205407892a602195d9f6c21f5f7ee0cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80729a70bede58122b16888c05075ba9 = $(`<div id="html_80729a70bede58122b16888c05075ba9" style="width: 100.0%; height: 100.0%;">490 S. Randall Rd, IL</div>`)[0];
+            popup_205407892a602195d9f6c21f5f7ee0cc.setContent(html_80729a70bede58122b16888c05075ba9);
+        
+
+        marker_584ff4ad1ef4fd87741c82a265dc3f27.bindPopup(popup_205407892a602195d9f6c21f5f7ee0cc)
+        ;
+
+        
+    
+    
+            var marker_2ac41db1b5b7c2927b3359b2442d54dc = L.marker(
+                [41.6596, -88.2041],
+                {}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+    
+        var popup_501f7d4b376f198ea26ee9d38fcda277 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32a109dc50bec46c5bfc1b9e61881e68 = $(`<div id="html_32a109dc50bec46c5bfc1b9e61881e68" style="width: 100.0%; height: 100.0%;">13705 South Route 59, IL</div>`)[0];
+            popup_501f7d4b376f198ea26ee9d38fcda277.setContent(html_32a109dc50bec46c5bfc1b9e61881e68);
+        
+
+        marker_2ac41db1b5b7c2927b3359b2442d54dc.bindPopup(popup_501f7d4b376f198ea26ee9d38fcda277)
+        ;
+
+        
+    
+    
+            var marker_9bb72aaaa771ed8d764da99ffef5112a = L.marker(
+                [42.3566, -88.2643],
+                {}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+    
+        var popup_f7313bb152934f0729de218c14bc37c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65b001e5cb71a1f1a76085d3200bb902 = $(`<div id="html_65b001e5cb71a1f1a76085d3200bb902" style="width: 100.0%; height: 100.0%;">2149 N. Richmond Rd, IL</div>`)[0];
+            popup_f7313bb152934f0729de218c14bc37c6.setContent(html_65b001e5cb71a1f1a76085d3200bb902);
+        
+
+        marker_9bb72aaaa771ed8d764da99ffef5112a.bindPopup(popup_f7313bb152934f0729de218c14bc37c6)
+        ;
+
+        
+    
+    
+            var marker_668943101074cc29fae36f1a2477080e = L.marker(
+                [42.0494, -88.0725],
+                {}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+    
+        var popup_a04f81fbc3242417a077d3beffcb3646 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68d09e09521f8c494ca1c8f03d37a12d = $(`<div id="html_68d09e09521f8c494ca1c8f03d37a12d" style="width: 100.0%; height: 100.0%;">1251 Golf Road, IL</div>`)[0];
+            popup_a04f81fbc3242417a077d3beffcb3646.setContent(html_68d09e09521f8c494ca1c8f03d37a12d);
+        
+
+        marker_668943101074cc29fae36f1a2477080e.bindPopup(popup_a04f81fbc3242417a077d3beffcb3646)
+        ;
+
+        
+    
+    
+            var marker_769ef934025c0868ab6b4faa6dae3ba3 = L.marker(
+                [41.7073, -88.3374],
+                {}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+    
+        var popup_cd4c9640c64fc34c127401e7cbba75d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91ba106105b1ffe92143fa666d5905fb = $(`<div id="html_91ba106105b1ffe92143fa666d5905fb" style="width: 100.0%; height: 100.0%;">2720 Route 34, IL</div>`)[0];
+            popup_cd4c9640c64fc34c127401e7cbba75d9.setContent(html_91ba106105b1ffe92143fa666d5905fb);
+        
+
+        marker_769ef934025c0868ab6b4faa6dae3ba3.bindPopup(popup_cd4c9640c64fc34c127401e7cbba75d9)
+        ;
+
+        
+    
+    
+            var marker_05533c4c051784f237236b55a68557a0 = L.marker(
+                [42.3767, -88.0484],
+                {}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+    
+        var popup_266656b66edf13414af27941a8c4a3bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf8c3db3c54b7fab7066460f32e95f76 = $(`<div id="html_bf8c3db3c54b7fab7066460f32e95f76" style="width: 100.0%; height: 100.0%;">752 E. Rollins Rd., IL</div>`)[0];
+            popup_266656b66edf13414af27941a8c4a3bd.setContent(html_bf8c3db3c54b7fab7066460f32e95f76);
+        
+
+        marker_05533c4c051784f237236b55a68557a0.bindPopup(popup_266656b66edf13414af27941a8c4a3bd)
+        ;
+
+        
+    
+    
+            var marker_2bd531e42d0fbe0b011c63402b633524 = L.marker(
+                [41.9903, -88.678],
+                {}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+    
+        var popup_c5f90beefb4c50e5f0b2e4c91226c2a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6efc0ee8cba8e1a87203e1aba135002e = $(`<div id="html_6efc0ee8cba8e1a87203e1aba135002e" style="width: 100.0%; height: 100.0%;">601 Peace Rd., IL</div>`)[0];
+            popup_c5f90beefb4c50e5f0b2e4c91226c2a5.setContent(html_6efc0ee8cba8e1a87203e1aba135002e);
+        
+
+        marker_2bd531e42d0fbe0b011c63402b633524.bindPopup(popup_c5f90beefb4c50e5f0b2e4c91226c2a5)
+        ;
+
+        
+    
+    
+            var poly_line_47036119d0035486962bf00fbe0cf0b7 = L.polyline(
+                [[41.8936, -87.6735], [41.7303, -88.1257], [41.8034, -88.2044], [41.7584, -88.3368], [41.7722, -88.3315], [41.9496, -88.108], [41.7595, -88.341], [41.6596, -88.2041], [42.3566, -88.2643], [42.0494, -88.0725], [41.7073, -88.3374], [42.3767, -88.0484], [41.9903, -88.678]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_79eda76304e7679470c8e375a7e86b11);
+        
+</script>
+</html>
